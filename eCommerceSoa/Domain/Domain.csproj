@@ -67,6 +67,7 @@
     <Compile Include="Transaction\ShoppingCart.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Master\Customer\Customer.cd" />
     <None Include="Transaction\Transaction.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

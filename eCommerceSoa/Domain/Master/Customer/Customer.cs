@@ -39,7 +39,7 @@ namespace Domain.Master.Customer
         /// <summary>
         /// Customer email address
         /// </summary>
-        public Email EmailAddress { get; set; }
+        public CustomerEmail EmailAddress { get; set; }
 
         /// <summary>
         /// List of customer addresses
@@ -49,15 +49,15 @@ namespace Domain.Master.Customer
         /// <summary>
         /// List of customer phones
         /// </summary>
-        public IList<CustomerPhone> Phone { get; set; }
+        public IList<CustomerPhone> Phones { get; set; }
 
         /// <summary>
         /// List of customer faxes
         /// </summary>
-        public IList<Fax> Fax { get; set; }
+        public IList<CustomerFax> Faxes { get; set; }
 
         public ShoppingCart Cart { get; set; }
 
-        public CustomerPaymentOption PaymentOptions { get; set; }
+        public CustomerPaymentOption PaymentOption { get; set; }
     }
 }
