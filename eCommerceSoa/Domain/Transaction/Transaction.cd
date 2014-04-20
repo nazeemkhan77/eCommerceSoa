@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.Transaction.ShoppingCart">
+    <Position X="2.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAAAAAAAQAABAgAAgAAAAAA=</HashCode>
+      <FileName>Transaction\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Transaction.OrderLineItem">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAABAAAAAQAAAAgAAgAAEAQA=</HashCode>
+      <FileName>Transaction\OrderLineItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Transaction.Order">
+    <Position X="2.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAUAEgAAAAAAASAAAAAAAAAgABAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="LineItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

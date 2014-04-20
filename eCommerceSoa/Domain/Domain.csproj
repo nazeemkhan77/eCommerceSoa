@@ -36,14 +36,38 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Address.cs" />
-    <Compile Include="Customer.cs" />
+    <Compile Include="Common\Gender.cs" />
+    <Compile Include="Master\Customer\CustomerBankAccount.cs" />
+    <Compile Include="Master\Customer\CustomerCreditCard.cs" />
+    <Compile Include="Master\Customer\CustomerPaymentOption.cs" />
+    <Compile Include="Master\Payment\BankAccount.cs" />
+    <Compile Include="Master\Payment\BankAccountType.cs" />
+    <Compile Include="Master\Payment\CreditCard.cs" />
+    <Compile Include="Master\Payment\CreditCardType.cs" />
+    <Compile Include="Master\Customer\CustomerFax.cs" />
+    <Compile Include="Master\Customer\CustomerEmail.cs" />
+    <Compile Include="Master\Customer\Customer.cs" />
+    <Compile Include="Master\Customer\CustomerAddress.cs" />
     <Compile Include="Common\Date.cs" />
     <Compile Include="Common\Email.cs" />
     <Compile Include="Common\Fax.cs" />
     <Compile Include="Common\Phone.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Master\Customer\CustomerPhone.cs" />
+    <Compile Include="Master\Payment\PaymentType.cs" />
+    <Compile Include="Master\Product\Product.cs" />
+    <Compile Include="Master\Product\ProductCategory.cs" />
+    <Compile Include="Master\Product\ProductImage.cs" />
+    <Compile Include="Master\Product\ProductImageSize.cs" />
+    <Compile Include="Master\Product\ProductImageType.cs" />
+    <Compile Include="Master\Manufacturer\Manufacturer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShoppingCart.cs" />
+    <Compile Include="Transaction\Order.cs" />
+    <Compile Include="Transaction\OrderLineItem.cs" />
+    <Compile Include="Master\Manufacturer\Shipping.cs" />
+    <Compile Include="Transaction\ShoppingCart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Transaction\Transaction.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,9 +1,10 @@
-﻿namespace Domain
+﻿using System;
+
+namespace Domain.Common
 {
     public class Phone
     {
-        public Customer Customer { get; private set; }
-        public string Type { get; set; }
+        public String Type { get; set; }
         public string CountryCode { get; set; }
         public string AreaCode { get; set; }
         public string Number { get; set; }
