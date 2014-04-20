@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/eCommerceSoa/CatalogService/bin
+/eCommerceSoa/CatalogService/obj/Debug
+/eCommerceSoa/DataContract/bin/Debug
+/eCommerceSoa/DataContract/obj/Debug
+/eCommerceSoa/Domain/bin/Debug
+/eCommerceSoa/Domain/obj/Debug
+/eCommerceSoa/DataAccess/obj/Debug
+/eCommerceSoa/DataAccess/bin/Debug
+/eCommerceSoa/MarketingService/bin
+/eCommerceSoa/MarketingService/obj/Debug
+/eCommerceSoa/OrderService/bin
+/eCommerceSoa/OrderService/obj/Debug
+/eCommerceSoa/ProfileService/bin
+/eCommerceSoa/ProfileService/obj/Debug
+/eCommerceSoa/ServiceContract/bin/Debug
+/eCommerceSoa/ServiceContract/obj/Debug

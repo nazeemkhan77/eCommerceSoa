@@ -1,0 +1,6 @@
+﻿namespace Domain
+{
+    class Orders
+    {
+    }
+}
