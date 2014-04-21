@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Domain.Master.Payment;
+using eCommerceSoa.Domain.Master.Payment;
 
-namespace Domain.Master.Customer
+namespace eCommerceSoa.Domain.Master.Customer
 {
     public class CustomerPaymentOption
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Domain.Master.Manufacturer
+namespace eCommerceSoa.Domain.Master.Manufacturer
 {
     public class Manufacturer
     {

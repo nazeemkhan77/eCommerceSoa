@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Domain.Master.Product
+namespace eCommerceSoa.Domain.Master.Product
 {
     public class Product
     {

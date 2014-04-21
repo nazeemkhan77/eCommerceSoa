@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Domain.Master.Customer;
+using eCommerceSoa.Domain.Master.Customer;
 
-namespace Domain.Transaction
+namespace eCommerceSoa.Domain.Transaction
 {
     public class Order
     {

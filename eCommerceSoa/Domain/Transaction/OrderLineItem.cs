@@ -1,6 +1,6 @@
-﻿using Domain.Master.Product;
+﻿using eCommerceSoa.Domain.Master.Product;
 
-namespace Domain.Transaction
+namespace eCommerceSoa.Domain.Transaction
 {
     public class OrderLineItem
     {

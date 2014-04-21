@@ -1,6 +1,6 @@
-﻿using Domain.Common;
+﻿using eCommerceSoa.Domain.Common;
 
-namespace Domain.Master.Customer
+namespace eCommerceSoa.Domain.Master.Customer
 {
     public class CustomerFax : Fax
     {

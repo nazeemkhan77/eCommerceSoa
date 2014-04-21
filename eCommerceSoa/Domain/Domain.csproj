@@ -7,7 +7,7 @@
     <ProjectGuid>{5780559B-CECA-40B1-8195-EF3802F00458}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Domain</RootNamespace>
+    <RootNamespace>eCommerceSoa.Domain</RootNamespace>
     <AssemblyName>eCommerceSoa.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

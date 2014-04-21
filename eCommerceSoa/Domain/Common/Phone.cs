@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Domain.Common
+namespace eCommerceSoa.Domain.Common
 {
     public class Phone
     {

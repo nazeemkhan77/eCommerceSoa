@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Domain.Common;
-using Domain.Master.Product;
+using eCommerceSoa.Domain.Common;
+using eCommerceSoa.Domain.Master.Product;
 
-namespace Domain.Master.Coupon
+namespace eCommerceSoa.Domain.Master.Coupon
 {
     public class Coupon
     {

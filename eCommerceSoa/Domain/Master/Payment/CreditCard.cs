@@ -1,6 +1,6 @@
-﻿using Domain.Common;
+﻿using eCommerceSoa.Domain.Common;
 
-namespace Domain.Master.Payment
+namespace eCommerceSoa.Domain.Master.Payment
 {
     public class CreditCard
     {

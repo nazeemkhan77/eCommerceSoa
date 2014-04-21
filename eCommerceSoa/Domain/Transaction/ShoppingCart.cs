@@ -1,8 +1,8 @@
 ﻿using System;
-using Domain.Master.Customer;
-using Domain.Master.Product;
+using eCommerceSoa.Domain.Master.Customer;
+using eCommerceSoa.Domain.Master.Product;
 
-namespace Domain.Transaction
+namespace eCommerceSoa.Domain.Transaction
 {
     public class ShoppingCart
     {

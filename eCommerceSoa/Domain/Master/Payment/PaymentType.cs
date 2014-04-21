@@ -1,4 +1,4 @@
-﻿namespace Domain.Master.Payment
+﻿namespace eCommerceSoa.Domain.Master.Payment
 {
     public class PaymentType
     {

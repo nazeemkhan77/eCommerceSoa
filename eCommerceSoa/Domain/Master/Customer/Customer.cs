@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Domain.Common;
-using Domain.Transaction;
+using eCommerceSoa.Domain.Common;
+using eCommerceSoa.Domain.Transaction;
 
-namespace Domain.Master.Customer
+namespace eCommerceSoa.Domain.Master.Customer
 {
     public class Customer
     {
