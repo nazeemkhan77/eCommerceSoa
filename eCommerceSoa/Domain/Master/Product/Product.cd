@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.Master.Product.Product">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgIAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAgAAEAAA=</HashCode>
+      <FileName>Master\Product\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Categories" />
+      <Property Name="ProductImages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.Master.Product.ProductCategory">
+    <Position X="4" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Master\Product\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Master.Product.ProductImage">
+    <Position X="4" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAggAAAAAAAAAAIAAAAAAAAAQBAAAAAAAA=</HashCode>
+      <FileName>Master\Product\ProductImage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="Size" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="Domain.Master.Product.ProductImageSize">
+    <Position X="7.25" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Master\Product\ProductImageSize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Domain.Master.Product.ProductImageType">
+    <Position X="7.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAg=</HashCode>
+      <FileName>Master\Product\ProductImageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

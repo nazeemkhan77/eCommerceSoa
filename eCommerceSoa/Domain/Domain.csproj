@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Common\Address.cs" />
     <Compile Include="Common\Gender.cs" />
+    <Compile Include="Master\Coupon\Coupon.cs" />
     <Compile Include="Master\Customer\CustomerBankAccount.cs" />
     <Compile Include="Master\Customer\CustomerCreditCard.cs" />
     <Compile Include="Master\Customer\CustomerPaymentOption.cs" />
@@ -68,6 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Master\Customer\Customer.cd" />
+    <None Include="Master\Payment\Payment.cd" />
+    <None Include="Master\Product\Product.cd" />
     <None Include="Transaction\Transaction.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

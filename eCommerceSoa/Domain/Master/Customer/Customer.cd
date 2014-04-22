@@ -2,18 +2,25 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Domain.Master.Customer.Customer">
     <Position X="0.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Phones" Type="Domain.Master.Customer.CustomerPhone" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.688" Y="2.757" />
+        <Point X="1.688" Y="4.616" />
+        <Point X="3.75" Y="4.616" />
+      </Path>
+    </AssociationLine>
     <AssociationLine Name="Faxes" Type="Domain.Master.Customer.CustomerFax" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="1.188" Y="2.757" />
-        <Point X="1.188" Y="5.096" />
-        <Point X="3.75" Y="5.096" />
+        <Point X="1.188" Y="6.117" />
+        <Point X="3.75" Y="6.117" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="PaymentOption" Type="Domain.Master.Customer.CustomerPaymentOption" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="0.812" Y="2.757" />
-        <Point X="0.812" Y="7.244" />
-        <Point X="3.5" Y="7.244" />
+        <Point X="0.812" Y="7.994" />
+        <Point X="3.75" Y="7.994" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -37,48 +44,50 @@
       <FileName>Master\Customer\CustomerAddress.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Domain.Master.Customer.CustomerBankAccount" Collapsed="true">
-    <Position X="7.25" Y="7.5" Width="2" />
+  <Class Name="Domain.Master.Customer.CustomerBankAccount">
+    <Position X="7.5" Y="9" Width="2" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Master\Customer\CustomerBankAccount.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Domain.Master.Customer.CustomerCreditCard">
-    <Position X="7.25" Y="6" Width="2" />
+    <Position X="7.5" Y="7.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Master\Customer\CustomerCreditCard.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Domain.Master.Customer.CustomerEmail" Collapsed="true">
+  <Class Name="Domain.Master.Customer.CustomerEmail">
     <Position X="3.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Master\Customer\CustomerEmail.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Domain.Master.Customer.CustomerFax" Collapsed="true">
-    <Position X="3.75" Y="4.75" Width="1.5" />
+  <Class Name="Domain.Master.Customer.CustomerFax">
+    <Position X="3.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Master\Customer\CustomerFax.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Domain.Master.Customer.CustomerPaymentOption">
-    <Position X="3.5" Y="6.5" Width="2.25" />
-    <AssociationLine Name="CreditCards" Type="Domain.Master.Customer.CustomerCreditCard" FixedFromPoint="true">
+    <Position X="3.75" Y="7.25" Width="2.25" />
+    <AssociationLine Name="CreditCards" Type="Domain.Master.Customer.CustomerCreditCard" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.75" Y="7.188" />
-        <Point X="7.25" Y="7.188" />
+        <Point X="6" Y="7.938" />
+        <Point X="6.375" Y="7.938" />
+        <Point X="6.375" Y="7.937" />
+        <Point X="7.5" Y="7.937" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="BankAccounts" Type="Domain.Master.Customer.CustomerBankAccount" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.75" Y="7.688" />
-        <Point X="6.125" Y="7.688" />
-        <Point X="6.125" Y="7.812" />
-        <Point X="7.25" Y="7.812" />
+        <Point X="6" Y="8.438" />
+        <Point X="6.375" Y="8.438" />
+        <Point X="6.375" Y="9.643" />
+        <Point X="7.5" Y="9.643" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -91,42 +100,42 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Domain.Master.Customer.CustomerPhone">
-    <Position X="3.75" Y="3.25" Width="1.5" />
+    <Position X="3.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Master\Customer\CustomerPhone.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Domain.Common.Email" Collapsed="true">
-    <Position X="6.25" Y="2.25" Width="1.5" />
+  <Class Name="Domain.Common.Email">
+    <Position X="6.25" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAA=</HashCode>
       <FileName>Common\Email.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Domain.Common.Phone" Collapsed="true">
-    <Position X="6.25" Y="3.25" Width="1.5" />
+  <Class Name="Domain.Common.Phone">
+    <Position X="6.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ASAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Common\Phone.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Domain.Common.Fax" Collapsed="true">
-    <Position X="6.25" Y="4.75" Width="1.5" />
+    <Position X="6.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Common\Fax.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Domain.Master.Payment.CreditCard">
-    <Position X="9.75" Y="4.75" Width="1.5" />
+    <Position X="10.25" Y="7" Width="1.75" />
     <TypeIdentifier>
       <HashCode>gAAAAAEAAAIAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Master\Payment\CreditCard.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Domain.Master.Payment.BankAccount">
-    <Position X="10" Y="7.5" Width="1.75" />
+    <Position X="10.25" Y="9" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAABQAAAAAQ=</HashCode>
       <FileName>Master\Payment\BankAccount.cs</FileName>

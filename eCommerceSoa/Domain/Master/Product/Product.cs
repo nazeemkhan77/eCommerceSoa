@@ -10,7 +10,7 @@ namespace Domain.Master.Product
         public decimal Quantity { get; set; }
         public IList<ProductCategory> Categories { get; set; }
         public Domain.Master.Manufacturer.Manufacturer Manufacturer { get; set; }
-        
+        public IList<ProductImage> ProductImages { get; set; }
         //height
         //weight
         //dimension
