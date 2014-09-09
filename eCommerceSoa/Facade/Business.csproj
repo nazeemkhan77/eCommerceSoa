@@ -7,8 +7,8 @@
     <ProjectGuid>{88E4CA45-2A3E-485D-B73F-07B204FC14AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eCommerceSoa.Facade</RootNamespace>
-    <AssemblyName>eCommerceSoa.Facade</AssemblyName>
+    <RootNamespace>eCommerceSoa.BusinessLayer</RootNamespace>
+    <AssemblyName>eCommerceSoa.BusinessLayer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,6 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contract\Model\ChangePassword.cs" />
+    <Compile Include="Contract\ICustomerService.cs" />
+    <Compile Include="Contract\ILoginService.cs" />
+    <Compile Include="Contract\IProductService.cs" />
+    <Compile Include="CustomerService.cs" />
+    <Compile Include="Contract\IProductCategoryService.cs" />
+    <Compile Include="LoginService.cs" />
+    <Compile Include="ProductCategoryService.cs" />
     <Compile Include="ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,10 +62,6 @@
     <ProjectReference Include="..\Exception\Exception.csproj">
       <Project>{cd053b16-0f96-439b-9101-10b0baf93f53}</Project>
       <Name>Exception</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Interface\Interface.csproj">
-      <Project>{169db656-dd27-455c-9082-3db6ada7a114}</Project>
-      <Name>Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,43 +1,37 @@
-﻿using eCommerceSoa.DataAccess;
-using eCommerceSoa.Exception.Product;
-using eCommerceSoa.Interface.DataAccess;
-using eCommerceSoa.Interface.Facade;
-using System;
+﻿using eCommerceSoa.BusinessLayer.Contract;
+using eCommerceSoa.DataAccess.Contract;
+using eCommerceSoa.Domain.Master.Product;
 
-namespace eCommerceSoa.Facade
+namespace eCommerceSoa.Business
 {
     public class ProductService : IProductService
     {
-        private IProductDataAccess _productDataAccess;
+        private readonly IRepository<Product> _productRepository;
 
-        public ProductService()
-            : this(new ProductDataAccess())
+        public ProductService(IRepository<Product> productRepository)
         {
+            _productRepository = productRepository;
         }
 
-        public ProductService(IProductDataAccess productDataAccess)
+        //validation annotation goes here
+        public void AddProduct(Product product)
         {
-            _productDataAccess = productDataAccess;
+            _productRepository.Create(product);
+            _productRepository.Save();
         }
 
-        public long AddProduct(Domain.Master.Product.Product product)
+        //validation annotation goes here
+        public void UpdateProduct(Product product)
         {
-            //validation goes here
-            return _productDataAccess.Create(product);
+            _productRepository.Update(product);
+            _productRepository.Save();
         }
 
-        public void UpdateProduct(Domain.Master.Product.Product product)
-        {
-            //validation goes here
-            _productDataAccess.Update(product);
-        }
-
+        //validation annotation goes here
         public void RemoveProduct(long productId)
         {
-            if (productId <= 0)
-                throw new InvalidProductIdException(productId);
-
-            _productDataAccess.Delete(productId);
+            _productRepository.Delete(new Product(productId));
+            _productRepository.Save();
         }
     }
 }

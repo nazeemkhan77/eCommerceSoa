@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using eCommerceSoa.Domain.Common;
-using eCommerceSoa.Domain.Transaction;
+using eCommerceSoa.Domain.Transaction.Cart;
 
 namespace eCommerceSoa.Domain.Master.Customer
 {

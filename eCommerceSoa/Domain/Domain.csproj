@@ -36,11 +36,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Address.cs" />
+    <Compile Include="Common\AddressType.cs" />
+    <Compile Include="Common\EmailType.cs" />
     <Compile Include="Common\Gender.cs" />
+    <Compile Include="Common\PhoneType.cs" />
+    <Compile Include="Common\State.cs" />
     <Compile Include="Master\Coupon\Coupon.cs" />
+    <Compile Include="Master\Coupon\CouponTransaction.cs" />
     <Compile Include="Master\Customer\CustomerBankAccount.cs" />
     <Compile Include="Master\Customer\CustomerCreditCard.cs" />
     <Compile Include="Master\Customer\CustomerPaymentOption.cs" />
+    <Compile Include="Master\Login\Login.cs" />
+    <Compile Include="Master\Organization\OrganizationAddress.cs" />
+    <Compile Include="Master\Organization\Organization.cs" />
+    <Compile Include="Master\Organization\OrganizationEmail.cs" />
+    <Compile Include="Master\Organization\OrganizationPaymentMethod.cs" />
+    <Compile Include="Master\Organization\OrganizationPhone.cs" />
+    <Compile Include="Common\PaymentMethod.cs" />
+    <Compile Include="Common\ShippingMethod.cs" />
+    <Compile Include="Master\Organization\OrganizationShippingMethod.cs" />
     <Compile Include="Master\Payment\BankAccount.cs" />
     <Compile Include="Master\Payment\BankAccountType.cs" />
     <Compile Include="Master\Payment\CreditCard.cs" />
@@ -54,18 +68,22 @@
     <Compile Include="Common\Fax.cs" />
     <Compile Include="Common\Phone.cs" />
     <Compile Include="Master\Customer\CustomerPhone.cs" />
-    <Compile Include="Master\Payment\PaymentType.cs" />
     <Compile Include="Master\Product\Product.cs" />
     <Compile Include="Master\Product\ProductCategory.cs" />
     <Compile Include="Master\Product\ProductImage.cs" />
     <Compile Include="Master\Product\ProductImageSize.cs" />
     <Compile Include="Master\Product\ProductImageType.cs" />
     <Compile Include="Master\Manufacturer\Manufacturer.cs" />
+    <Compile Include="Master\Product\ProductProperty.cs" />
+    <Compile Include="Master\Product\ProductReview.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Transaction\Order.cs" />
-    <Compile Include="Transaction\OrderLineItem.cs" />
-    <Compile Include="Master\Manufacturer\Shipping.cs" />
-    <Compile Include="Transaction\ShoppingCart.cs" />
+    <Compile Include="Transaction\Cart\ShoppingCartItem.cs" />
+    <Compile Include="Transaction\Order\Order.cs" />
+    <Compile Include="Transaction\Order\OrderLineItem.cs" />
+    <Compile Include="Transaction\Cart\ShoppingCart.cs" />
+    <Compile Include="Transaction\Order\OrderPayment.cs" />
+    <Compile Include="Transaction\Wishlist\WishListItem.cs" />
+    <Compile Include="Transaction\Wishlist\WishList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Master\Customer\Customer.cd" />
@@ -73,6 +91,7 @@
     <None Include="Master\Product\Product.cd" />
     <None Include="Transaction\Transaction.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

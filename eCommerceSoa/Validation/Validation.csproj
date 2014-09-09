@@ -7,8 +7,8 @@
     <ProjectGuid>{ACF7BAF3-2886-4A79-B7F7-38080ADC1A21}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eCommernce.Validation</RootNamespace>
-    <AssemblyName>eCommernce.Validation</AssemblyName>
+    <RootNamespace>eCommerceSoa.Validation</RootNamespace>
+    <AssemblyName>eCommerceSoa.Validation</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

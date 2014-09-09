@@ -4,12 +4,13 @@ namespace eCommerceSoa.Domain.Master.Payment
 {
     public class CreditCard
     {
-        public CreditCardType CardType { get; set; }
+        public long Id { get; private set; }
+        public string HolderName { get; set; }
 
-        public string CardHolderName { get; set; }
+        public CreditCardType Type { get; set; }
 
-        public string CreditCardNumber { get; set; }
-        public string CVVNumber { get; set; }
+        public string Number { get; set; }
+        public string CVV { get; set; }
 
         public Date ExpirationDate { get; set; }
     }

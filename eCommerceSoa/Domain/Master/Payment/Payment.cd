@@ -1,47 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Domain.Master.Payment.PaymentType">
-    <Position X="7.25" Y="1.5" Width="1.5" />
+  <Class Name="eCommerceSoa.Domain.Master.Payment.CreditCardType">
+    <Position X="3.75" Y="1.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAA=</HashCode>
-      <FileName>Master\Payment\PaymentType.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Domain.Master.Payment.CreditCardType">
-    <Position X="4.25" Y="1.5" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Master\Payment\CreditCardType.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Type" />
-    </ShowAsAssociation>
   </Class>
-  <Class Name="Domain.Master.Payment.CreditCard">
-    <Position X="0.75" Y="1.25" Width="2" />
-    <TypeIdentifier>
-      <HashCode>gAAAAAEAAAIAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Master\Payment\CreditCard.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="CardType" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="Domain.Master.Payment.BankAccountType">
-    <Position X="4.25" Y="4" Width="1.75" />
+  <Class Name="eCommerceSoa.Domain.Master.Payment.BankAccountType">
+    <Position X="3.75" Y="4" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Master\Payment\BankAccountType.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Domain.Master.Payment.BankAccount">
-    <Position X="0.75" Y="3.75" Width="1.75" />
+  <Class Name="eCommerceSoa.Domain.Master.Payment.CreditCard">
+    <Position X="0.5" Y="1.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAABQAAAAAQ=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAEEAAAAAQAAAAAAAIQAAAAAAAAA=</HashCode>
+      <FileName>Master\Payment\CreditCard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="eCommerceSoa.Domain.Master.Payment.BankAccount">
+    <Position X="0.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAEAAAAAAAgAAAAAARAAAAAAAAQ=</HashCode>
       <FileName>Master\Payment\BankAccount.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="BankAccountType" />
+      <Property Name="Type" />
     </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
