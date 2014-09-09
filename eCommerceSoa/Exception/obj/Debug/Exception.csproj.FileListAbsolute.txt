@@ -1,0 +1,5 @@
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Exception\bin\Debug\eCommerceSoa.Exception.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Exception\bin\Debug\eCommerceSoa.Exception.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Exception\obj\Debug\eCommerceSoa.Exception.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Exception\obj\Debug\eCommerceSoa.Exception.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Exception\obj\Debug\Exception.csprojResolveAssemblyReference.cache

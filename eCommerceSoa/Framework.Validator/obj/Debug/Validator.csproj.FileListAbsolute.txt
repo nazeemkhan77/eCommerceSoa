@@ -1,0 +1,5 @@
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Framework.Validator\bin\Debug\Framework.Validator.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Framework.Validator\bin\Debug\Framework.Validator.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Framework.Validator\obj\Debug\Framework.Validator.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Framework.Validator\obj\Debug\Framework.Validator.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Framework.Validator\obj\Debug\Validator.csprojResolveAssemblyReference.cache

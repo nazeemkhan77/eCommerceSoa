@@ -1,0 +1,11 @@
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.BusinessLayer.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.BusinessLayer.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.DataAccess.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.Domain.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.Exception.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.DataAccess.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.Domain.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\bin\Debug\eCommerceSoa.Exception.pdb
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\obj\Debug\eCommerceSoa.BusinessLayer.dll
+C:\Users\NBasha\Documents\GitHub\eCommerceSoa\eCommerceSoa\Facade\obj\Debug\eCommerceSoa.BusinessLayer.pdb
